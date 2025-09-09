@@ -1,0 +1,16 @@
+[project]
+name= "design-patterns"
+version = "1.0.0"
+description = "Design Pattern"
+readme = "README.md"
+requires_python = ">=3.11.*"
+
+dependencies = [
+    "requests >=2.32.3",
+    "pyspark >= 3.4.5"
+]
+[dependency-groups]
+
+dev = [
+    "pytest >=8.3.5"
+]
